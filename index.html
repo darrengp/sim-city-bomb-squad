@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/bomb.js"></script>
     <title>Sim City Bomb Squad</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <p>Hello World!</p>
-        <!-- Your code here -->
+      <div id="gameboard">
+        <div>
+          <p id="timer">00:00:30</p>
+        </div>
+
+        <div id="wires">
+          <img
+            id="blue"
+            src="../sim-city-bomb-squad/img/uncut-blue-wire.png"
+            alt=""
+          />
+          <img
+            id="green"
+            src="../sim-city-bomb-squad/img/uncut-green-wire.png"
+            alt=""
+          />
+          <img
+            id="red"
+            src="../sim-city-bomb-squad/img/uncut-red-wire.png"
+            alt=""
+          />
+          <img
+            id="white"
+            src="../sim-city-bomb-squad/img/uncut-white-wire.png"
+            alt=""
+          />
+          <img
+            id="yellow"
+            src="../sim-city-bomb-squad/img/uncut-yellow-wire.png"
+            alt=""
+          />
+        </div>
+
+        <div><button id="resetButton">reset</button></div>
+      </div>
+      <!-- Your code here -->
     </main>
-</body>
+  </body>
 </html>
